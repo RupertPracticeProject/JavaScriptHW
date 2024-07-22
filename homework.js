@@ -5,7 +5,7 @@ console.table("1.a\n","var, let, for, switch, case, while, if, else, break, retu
 
 
 //1.b 宣告一圓周率常數，值為3.14，並取一個適當的常數名稱
-var pi = 3.14
+const pi = 3.14
 console.table("1.b\n",`pi = ${pi}`)
 
 
