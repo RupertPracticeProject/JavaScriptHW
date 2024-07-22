@@ -154,7 +154,7 @@ totalSum = 0
 for(let i = 2; i <= n; ++i)
 {
     isPrime = true
-    for(let j = 2; j <= Math.floor(Math.sqrt(i)); ++j)
+    for(let j = 2; j*j <= i; ++j)
     {
         if(i%j == 0)
         {
@@ -313,5 +313,5 @@ for(let count = 8; count >= 1; --count)
 
 console.table(
     "4.e\n",
-    [...doubleArr].forEach(c => console.log(c)),
 )
+let result = [...doubleArr].forEach(c => console.log(c))
